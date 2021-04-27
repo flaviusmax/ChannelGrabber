@@ -1,0 +1,13 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"chanel"},
+{"type":"table","name":"tbl_employee","database":"chanel","data":
+[
+{"id":"1","name":"David","address_line1":"Second","address_line2":"London"},
+{"id":"2","name":"Steve","address_line1":"First","address_line2":"Livepool"},
+{"id":"3","name":"Luci","address_line1":"The Pricipal 24","address_line2":"Livepool"},
+{"id":"4","name":"Joe","address_line1":"Second 25","address_line2":"London"},
+{"id":"5","name":"Julia","address_line1":"Second no 3","address_line2":"Cardiff"}
+]
+}
+]

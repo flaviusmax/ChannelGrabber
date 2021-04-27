@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Gazdă: 127.0.0.1
+- Timp de generare: apr. 26, 2021 la 11:59 AM
+- Versiune server: 10.4.14-MariaDB
+- Versiune PHP: 7.2.33
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="chanel" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="tbl_employee">
+                CREATE TABLE `tbl_employee` (
+                  `id` int(10) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(63) NOT NULL,
+                  `address_line1` varchar(60) NOT NULL,
+                  `address_line2` varchar(30) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Bază de date: 'chanel'
+    -->
+    <database name="chanel">
+        <!-- Tabel tbl_employee -->
+        <table name="tbl_employee">
+            <column name="id">1</column>
+            <column name="name">David</column>
+            <column name="address_line1">Second</column>
+            <column name="address_line2">London</column>
+        </table>
+        <table name="tbl_employee">
+            <column name="id">2</column>
+            <column name="name">Steve</column>
+            <column name="address_line1">First</column>
+            <column name="address_line2">Livepool</column>
+        </table>
+        <table name="tbl_employee">
+            <column name="id">3</column>
+            <column name="name">Luci</column>
+            <column name="address_line1">The Pricipal 24</column>
+            <column name="address_line2">Livepool</column>
+        </table>
+        <table name="tbl_employee">
+            <column name="id">4</column>
+            <column name="name">Joe</column>
+            <column name="address_line1">Second 25</column>
+            <column name="address_line2">London</column>
+        </table>
+        <table name="tbl_employee">
+            <column name="id">5</column>
+            <column name="name">Julia</column>
+            <column name="address_line1">Second no 3</column>
+            <column name="address_line2">Cardiff</column>
+        </table>
+    </database>
+</pma_xml_export>
