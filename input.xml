@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <numes> 
+     <nume>
+		<id> 22 </id>
+         <name>yolanda</name>
+         <address_line1> strada cetatii nr 2 </address_line1>
+         <address_line2>Brasov </address_line2> 
+         
+     </nume> 
+     <nume>
+		<id> 23 </id>
+         <name>Maria </name>
+         <address_line1>calea  mare</address_line1>
+         <address_line2> mama </address_line2> 
+       
+     </nume> 
+     <nume>
+		<id> 24 </id>
+         <name>Narcisa</name>
+         <address_line1>Strada principala beius</address_line1>
+         <address_line2>Oradea. </address_line2> 
+        
+     </nume> 
+ </numes>

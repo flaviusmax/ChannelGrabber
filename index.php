@@ -30,7 +30,8 @@ include 'bd.php';
 	$exportJsonFile = json_encode($emparray);
     file_put_contents('jsonFile.json', $exportJsonFile);
 	
-	
+
+
   
   
 ?>
