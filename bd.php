@@ -8,7 +8,7 @@
 		
 		 $db_host = 'localhost'; 
 		 $db_user = 'flavi'; 
-		 $db_pass = 'zzxxzz'; 
+		 $db_pass = 'pass'; 
 		 $db_name = 'channel'; 
 	 
 public function connect()
